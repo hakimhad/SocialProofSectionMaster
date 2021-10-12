@@ -1,0 +1,96 @@
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    padding: 120px;
+    font-family:"spartan";
+    justify-content: space-between;
+}
+#contenu_haut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+#speech{
+    color: hsl(300, 43%, 22%) ;
+    width: 450px;
+    font-size: 15px;
+    line-height: 30px;
+}
+#bigtext{
+    font-size: 50px ;
+    font-weight: 700;
+    line-height: 50px;
+}
+.star{
+    width: 150px;
+    align-content: space-around ;
+    
+}
+#rated{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 700;
+}
+.rated1, .rated2, .rated3{
+    height: 60px;
+    width: 450px;
+    font-size: 14px;
+    background-color:hsl(300, 24%, 96%);
+    text-align: center;
+}
+.rated1{
+    display: inline;
+    margin-right: 0;
+    padding-top: 15px;
+}
+
+
+#contenu_bas{
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    margin-top: 50px;
+}
+
+.review1, .review2, .review3{
+    font-size: 15px;
+    padding: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+}
+.review1 p,.review2 p,.review3 p{
+    color: hsl(300, 24%, 96%);
+    padding-left: 10px;
+}
+
+.review2{
+    margin-top: 30px;
+}
+
+.review3{
+    margin-top: 60px;
+}
+
+.buyer{
+    border-radius: 100px; 
+}
+.pastille{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+.buyer_name{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.verified_buyer{
+    color: hsl(303, 10%, 53%) ;
+}

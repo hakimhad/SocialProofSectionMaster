@@ -1,0 +1,383 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#support {
+  max-width: 1440px;
+}
+#support #container {
+  padding: 100px 150px 0px;
+}
+#support #container #top-part {
+  display: flex;
+  justify-content: space-between;
+}
+#support #container #top-part #main-title {
+  width: 40%;
+}
+#support #container #top-part #main-title h1 {
+  font-size: 2.5rem;
+  color: #502050;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+#support #container #top-part #main-title h2 {
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #937b92;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+#support #container #top-part #star {
+  width: 50%;
+}
+#support #container #top-part #star .five-star {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7f2f7;
+  border-radius: 0.8rem;
+  color: #502050;
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 18px;
+  margin-top: 15px;
+}
+#support #container #top-part #star .five-star img:first-child {
+  margin-left: 20px;
+}
+#support #container #top-part #star .five-star img {
+  margin: 0 3px;
+}
+#support #container #top-part #star .five-star p {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+#support #container #top-part #star .five-star:first-child {
+  margin-right: 60px;
+}
+#support #container #top-part #star .five-star:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#support #container #top-part #star .five-star:nth-child(3) {
+  margin-left: 60px;
+}
+#support #container #comment {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#support #container #comment .comment-box {
+  width: 31%;
+  background-color: #502050;
+  padding: 40px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#support #container #comment .comment-box:nth-child(1) {
+  margin: 0 0 40px;
+}
+#support #container #comment .comment-box:nth-child(2) {
+  margin: 20px 0;
+}
+#support #container #comment .comment-box:nth-child(3) {
+  margin: 40px 0 0;
+}
+#support #container #comment .comment-box .profile {
+  display: flex;
+  justify-content: flex-start;
+}
+#support #container #comment .comment-box .profile img {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+#support #container #comment .comment-box .profile div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40px;
+  width: 100%;
+  padding: 0 15px;
+}
+#support #container #comment .comment-box .profile div h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+#support #container #comment .comment-box .profile div h4 {
+  color: #ee68a4;
+  font-weight: 400;
+  font-size: 0.7rem;
+  text-align: justify;
+}
+#support #container #comment .comment-box p {
+  margin: 15px 0 0px;
+  color: #f7f2f7;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+#support .attribution {
+  width: 100%;
+  text-align: center;
+  background-color: #f7f2f7;
+  line-height: 3rem;
+  margin-top: 70px;
+}
+
+@media (min-width: 401px) {
+  #support {
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 400px) {
+  #support {
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1250px) {
+  #container {
+    padding: 100px 100px 0px;
+  }
+
+  #main-title {
+    width: 30%;
+  }
+
+  #star .five-star img {
+    width: 17px;
+    height: 16px;
+  }
+}
+@media (max-width: 1240px) {
+  #container #top-part #star .five-star {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #container #top-part #star .five-star img:first-child {
+    margin-left: 0;
+  }
+  #container #top-part #star .five-star div {
+    display: inline-block;
+    width: 132px;
+    height: 19px;
+    flex: none;
+    text-align: center;
+  }
+  #container #top-part #star .five-star p {
+    display: inline-block;
+    height: 19px;
+    flex: none;
+    margin: 10px 40px 0;
+  }
+}
+@media (max-width: 1200px) {
+  #container {
+    padding: 100px 50px 0px;
+  }
+}
+@media (max-width: 1150px) {
+  #container {
+    padding: 100px 0px 0px;
+  }
+}
+@media (max-width: 1000px) {
+  #support #container #comment {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #support #container #comment .comment-box {
+    width: 45%;
+    margin: 20px 10px !important;
+  }
+}
+@media (max-width: 915px) {
+  #container #top-part {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #container #top-part #main-title {
+    width: 100% !important;
+  }
+  #container #top-part #main-title h1 {
+    text-align: center;
+  }
+  #container #top-part #star {
+    margin-top: 20px;
+    width: 100% !important;
+  }
+  #container #top-part #star .five-star div {
+    margin: 10px 0 0;
+  }
+  #container #top-part #star .five-star p {
+    width: 201px;
+    text-align: center;
+  }
+  #container #comment {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #container #comment .comment-box {
+    width: 60% !important;
+    margin: 15px 10px !important;
+  }
+}
+@media (max-width: 800px) {
+  #support #container {
+    padding: 100px 130px 0px;
+  }
+}
+@media (max-width: 760px) {
+  #support #container {
+    padding: 100px 110px 0px;
+  }
+}
+@media (max-width: 720px) {
+  #support #container {
+    padding: 100px 90px 0px;
+  }
+}
+@media (max-width: 680px) {
+  #support #container {
+    padding: 100px 70px 0px;
+  }
+}
+@media (max-width: 640px) {
+  #support #container {
+    padding: 100px 50px 0px;
+  }
+}
+@media (max-width: 600px) {
+  #support #container {
+    padding: 100px 30px 0px;
+  }
+}
+@media (max-width: 560px) {
+  #support #container {
+    padding: 100px 10px 0px;
+  }
+  #support #container #top-part #star .five-star {
+    margin: 15px !important;
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  #support #container #top-part #main-title h1 {
+    font-size: 2rem;
+  }
+  #support #container #top-part #main-title h2 {
+    font-size: 0.7rem;
+  }
+  #support #container #top-part #star .five-star {
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  #support #container #comment .comment-box {
+    width: 90% !important;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+  }
+}
