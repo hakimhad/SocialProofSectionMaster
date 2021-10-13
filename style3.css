@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('fonts/Spartan-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Spartan';
+    src: url('fonts/Spartan-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Spartan';
+    src: url('fonts/Spartan-Regular.ttf') format('truetype');
+    font-weight: 400;
+
+  }
+body{
+    background-image: url();
+    font-size: 15px;
+    font-family: 'Spartan';
+    padding: 120px 150px 0 150px;
+}
+.top_content{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_content{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.speech-content{
+    width: 500px;
+}
+.rated{
+    display: flex;
+    background-color: hsl(300, 24%, 96%)
+}
+.review{
+    width: 290px;
+    height: 170px;
+    padding: 30px;
+    align-content: center;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    color: white;
+}
+.pastille{
+    display: flex;
+    align-items: center;
+}
+.buyer{
+    border-radius: 50px;
+    height: 50px;
+}
+.buyer_name{
+    padding-left: 20px;
+}
+.verified_buyer{
+    color: hsl(333, 80%, 67%);
+}
+#review2{
+    position: relative;
+    top: 25px;
+}
+#review3{
+    position: relative;
+    top: 50px;
+}
