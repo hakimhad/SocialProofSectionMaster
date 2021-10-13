@@ -35,9 +35,27 @@ body{
 .speech-content{
     width: 500px;
 }
+.all_rated{
+    flex: inherit;
+}
 .rated{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
     display: flex;
-    background-color: hsl(300, 24%, 96%)
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+#rated1{
+    position: relative;
+    right: 80px;
+}
+#rated2{
+    position: relative;
+    right: 40px;
 }
 .review{
     width: 290px;
@@ -48,6 +66,7 @@ body{
     border-radius: 5px;
     color: white;
 }
+
 .pastille{
     display: flex;
     align-items: center;
