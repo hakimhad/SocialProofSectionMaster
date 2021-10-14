@@ -17,12 +17,14 @@
 
   }
 body{
-    background-image: url();
+    max-width: 1200PX;
     font-size: 15px;
     font-family: 'Spartan';
     padding: 120px 150px 0 150px;
+    /*margin: auto;*/
 }
 .top_content{
+    width: auto;
     height: 300px;
     display: flex;
     justify-content: space-between;
@@ -32,8 +34,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.speech-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
 .speech-content{
-    width: 500px;
+    width: 450px;
+    color: hsl(300, 43%, 22%);
 }
 .all_rated{
     flex: inherit;
@@ -57,13 +65,16 @@ body{
     position: relative;
     right: 40px;
 }
+.rated_in{
+    padding-left: 50px;
+}
 .review{
-    width: 290px;
+    width: 310px;
     height: 170px;
-    padding: 30px;
+    padding: 25px;
     align-content: center;
     background-color: hsl(300, 43%, 22%);
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
 }
 
@@ -73,10 +84,10 @@ body{
 }
 .buyer{
     border-radius: 50px;
-    height: 50px;
+    height: 40px;
 }
 .buyer_name{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .verified_buyer{
     color: hsl(333, 80%, 67%);
@@ -89,3 +100,58 @@ body{
     position: relative;
     top: 50px;
 }
+
+
+ @media screen and (max-width: 800PX){
+     body{
+         padding: 0;
+     }
+    .top_content, .bottom_content{
+       display: flex;
+       flex-direction: column;
+       height: max-content;
+    }
+    .speech-content{
+        width: 365px;
+        text-align: center;
+    }
+    .speech-content p{
+        line-height: 26px;
+        font-size: 16px;
+        margin: 32px auto;
+    }
+    .speech-title{
+        width: 256px;
+        font-size: 30px;
+        line-height: 29px;
+        margin: 20px auto;
+    }
+    .all_rated{
+        margin-bottom: 50px;
+        align-self: self-start;
+        width: 360px;
+       
+    }
+    #rated1, #rated2, #rated3{
+        width: 310px;
+        height: min-content;
+        margin: 10px AUTO;
+        padding: 20px; 
+        /* display: flex; */
+        align-items: center;
+        font-size: 12px;
+        font-weight: 700;
+        position :unset;
+        flex-direction: column;
+        
+    }
+    .rated_in{
+        font-size: 16px;
+        padding: 10px 10px 0;
+    }
+    .footer{
+        display: block;
+        height:30px;
+        background-color: chocolate;
+    }
+} 
